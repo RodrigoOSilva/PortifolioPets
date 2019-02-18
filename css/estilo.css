@@ -1,0 +1,156 @@
+html, body, #home {
+    overflow-x: hidden;
+
+}
+
+body {
+    margin: 0 auto;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+#home {
+    background: #ffc107;
+    
+}
+
+header {
+    overflow-y: hidden;
+}
+
+a, a:active, a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+nav.navbar-transparente {
+    padding: 0px 0px;
+    background: rgba(0,0,0,0.5);
+}
+
+.navbar .navbar-nav{
+    margin-right: 1em;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    
+}
+
+.navbar-brand {
+    margin-left: 5px;
+}
+
+.navbar-toggler {
+    margin-right: 5px;
+}
+
+#nav-main {
+    margin-left: 5px;
+}
+
+h1 {
+    font-size: 5em;
+    cursor: default;
+    color: white;
+}
+
+h2 {
+    font-size: 4em;
+
+}
+
+.capa {
+        text-align: center;
+}
+
+.btn-custom {
+    font-size: 1.5em;
+    
+    color: white;
+    border-radius: 500px;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+}
+
+.btn-custom:hover{
+    color: gray;
+}
+
+footer p a {
+    color: white;
+}
+footer p a:hover {
+    color: black;
+}
+
+/*/ Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    h1 {
+        display: block;
+        font-size: 2.4em;
+        padding-top: 50px;
+    }  
+    .btn-custom {
+        display: block;
+        font-size: 1em;
+    }
+    h2 {
+        font-size: 2.1em;
+    }
+   
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    h1 {
+        font-size: 3.5em;
+        padding-top: 50px;
+    }
+    .dog {
+        width: 450px;
+    }
+    h2 {
+        font-size: 2.5em;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    h1 {
+        font-size: 3em;
+        padding-top: 10px;
+    }
+    h2 {
+        font-size: 3em;
+
+    }
+    .dog {
+        width: 450px;
+    }
+    
+    #home a {
+        font-size: 1.5em;
+    }
+    
+    .capa {
+        margin-top: 15px;
+    }
+    
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .dog {
+        width: 550px;
+    }
+    h1 {
+        padding-top: 10px;
+    }
+    #home a {
+        font-size: 1.5em;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+ 
