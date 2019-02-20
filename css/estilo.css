@@ -63,11 +63,11 @@ h2 {
         text-align: center;
 }
 
-#home span {
+#home h1 span {
     font-style: italic;
 }
 
-#services span {
+#services h2 span {
     font-style: italic;
 }
 
