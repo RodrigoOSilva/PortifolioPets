@@ -10,7 +10,7 @@ body {
 
 #home {
     background: #ffc107;
-    
+    background: linear-gradient(50deg,#ffc107,#ffa);
 }
 
 header {
