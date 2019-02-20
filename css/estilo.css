@@ -92,6 +92,7 @@ p {
 
 #home img {
     margin-top: 8px;
+    margin-left: -80px
 }
 
 #home h1 span {
@@ -127,7 +128,7 @@ footer a:hover {
     color: #007bff;
 }
 
-
+/*extra small*/
 @media (max-width: 575.98px) {
     
     .navbar-brand i.fas{
@@ -165,6 +166,7 @@ footer a:hover {
 
     }
 }
+/*small*/
 
 @media (min-width: 576px) and (max-width: 767.98px) { 
     
@@ -173,17 +175,15 @@ footer a:hover {
         font-size: 3.5em;
         padding-top: 50px;
     }
-    .dog {
-        width: 450px;
-    }
+    
     h2 {
         font-size: 2.5em;
     }
 }
-
+/*medium*/
 @media (min-width: 768px) and (max-width: 991.98px) {
     h1 {
-        font-size: 3em;
+        font-size: 3.5em;
         padding-top: 10px;
     }
     h2 {
@@ -191,7 +191,7 @@ footer a:hover {
 
     }
     .dog {
-        width: 450px;
+        width: 400px;
     }
     
     #home a {
@@ -203,13 +203,14 @@ footer a:hover {
     }
     
 }
-
+/*large*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .dog {
-        width: 550px;
+        width: 480px;
     }
     h1 {
         padding-top: 10px;
+        font-size: 4em
     }
     #home a {
         font-size: 1.5em;
