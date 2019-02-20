@@ -144,12 +144,24 @@ footer a:hover {
     }  
     .btn-custom {
         display: block;
-        font-size: 1em;
     }
+    
+    #home a {
+        font-size: 1em
+    }
+    
     h2 {
-        font-size: 2.1em;
+        font-size: 2em;
     }
    
+    h3 {
+        font-size: 1.4em;
+    }
+    
+    p {
+        font-size: 1em;
+
+    }
 }
 
 /* Small devices (landscape phones, 576px and up)*/
